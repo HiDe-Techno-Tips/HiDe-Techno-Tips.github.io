@@ -130,9 +130,9 @@ footer {
 </header>
 
 <div class="tab">
-  <button class="tablinks" onclick="opentab(event, 'hometab'); document.getElementById('fhome').click();" id="home">Home</button>
-  <button class="tablinks" onclick="opentab(event, 'projectstab'); document.getElementById('fprojects').click();" id="projects">Projects</button>
-  <button class="tablinks" onclick="opentab(event, 'abouttab'); document.getElementById('fabout').click();" id="about">About</button>
+  <button class="tablinks" onclick="opentab(event, 'hometab');" id="home">Home</button>
+  <button class="tablinks" onclick="opentab(event, 'projectstab');" id="projects">Projects</button>
+  <button class="tablinks" onclick="opentab(event, 'abouttab');" id="about">About</button>
 </div>
 
 <div id="hometab" class="tabcontent">
@@ -167,18 +167,6 @@ function opentab(evt, tabName) {
   evt.currentTarget.className += " active";
 }
 
-function openftab(evt, ftabName) {
-  var i, ftablinks;
-  showtab(ftabName);
-  ftablinks = document.getElementsByClassName("ftablinks");
-  for (i = 0; i < ftablinks.length; i++) {
-    ftablinks[i].className = ftablinks[i].className.replace(" active", "");
-  }
-  
-  document.getElementById(ftabName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-
 function showtab(tabname) {
   var tabcontent;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -198,11 +186,6 @@ document.getElementById(tab).click();
 </script>
 
 <footer>
-	<div class="ftab">
-		<button class="ftablinks" onclick="openftab(event, 'hometab'); document.getElementById('home').click();" id="fhome">Home</button>
-		<button class="ftablinks" onclick="openftab(event, 'projectstab'); document.getElementById('projects').click();" id="fprojects">Projects</button>
-		<button class="ftablinks" onclick="openftab(event, 'abouttab'); document.getElementById('about').click();" id="fabout">About</button>
-	</div>
 </footer>
 
 </body>
