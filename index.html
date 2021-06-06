@@ -4,11 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<script src="jquery.js"></script> 
-<script> 
-    $(function(){
-      $("#includedContent").load("https://hide-techno-tips.github.io/Blackeye-for-Windows/"); 
-    });
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + '1px';
+  }
 </script>
 <script async src="https://yiopse.com/p/waWQiOjEwODgyMjMsInNpZCI6MTA5NzUxNSwid2lkIjoyMDIxMjUsInNyYyI6Mn0=eyJ.js"></script>
 <script async src="https://msgose.com/pw/waWQiOjEwODgyMjMsInNpZCI6MTA5NzUxNSwid2lkIjoyMDIxMjQsInNyYyI6Mn0=eyJ.js"></script>
@@ -149,7 +148,7 @@ footer {
 </div>
 
 <div id="projectstab" class="tabcontent">
-	<iframe src="https://hide-techno-tips.github.io/Blackeye-for-Windows/"></iframe>
+	<iframe src="https://hide-techno-tips.github.io/Blackeye-for-Windows/" frameborder="0" scrolling="no" onload="resizeIframe(this)" />
 </div>
 </div>
 
