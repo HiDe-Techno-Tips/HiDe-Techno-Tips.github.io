@@ -17,13 +17,11 @@
 * {
   box-sizing: border-box;
 }
-
 body {
-  background-color: #555;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
+color: white;
+background-color: #010409;
+font-family: Arial, Helvetica, sans-serif;
 }
-
 header {
   background-color: #222;
   padding: 10px;
@@ -88,6 +86,22 @@ footer {
   border: none;
   border-top: none;
 }
+.box a {
+text-decoration: none;
+}
+.box a p {
+color: white;
+}
+.box {
+background-color: #0d1117;
+border: 2px solid #30363d;
+border-radius: 10px;
+padding-top: 10px;
+padding-bottom: 20px;
+padding-left: 40px;
+padding-right: 40px;
+margin: 10px;
+}
 </style>
 
 </head>
@@ -120,8 +134,26 @@ footer {
 </div>
 
 <div id="projectstab" class="tabcontent">
-	<iframe src="https://hide-techno-tips.github.io/Blackeye-for-Windows/" frameborder="0" scrolling="no" onload="resizeIframe(this)" style="width:100%"></iframe>
 </div>
+
+<script>
+	fetch("https://api.github.com/users/Hide-techno-tips/repos")
+       	.then(res => res.json())
+	.then((out) => {
+            	divtxt = "";
+            	for (let i = 0; ; i++) {
+               		if (out[i] == null) {
+                   		break;
+                   	}
+               		desc = "";
+               		if (out[i].description != null) {
+                   		desc = out[i].description;
+                   	}
+           		divtxt = divtxt + "<div class = \"box\"><a href = \"" + out[i].html_url + "\"><h2>" + out[i].name + "</h2><p>" + desc + "</p></a></div>";
+           	}
+		document.getElementById("projectstab").innerHTML = divtxt;
+	})
+</script>		
 
 <div id="abouttab" class="tabcontent">
 	<script async src="https://ndroip.com/na/waWQiOjEwODgyMjMsInNpZCI6MTA5NzUxNSwid2lkIjoyMDIxMjYsInNyYyI6Mn0=eyJ.js"></script>
