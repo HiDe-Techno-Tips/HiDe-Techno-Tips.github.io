@@ -58,7 +58,11 @@
                		if (out[i].description != null) {
                    		desc = out[i].description;
                    	}
-           		divtxt = divtxt + "<div class = \"box\"><a href = \"" + out[i].html_url + "\"><h2>" + out[i].name + "</h2><p>" + desc + "</p></a></div>";
+                    url = out[i].html_url;
+                    if (out[i].has_pages){
+                    	url = "https://" + out[i].owner.login + ".github.io/" + out[i].name;
+                    }
+           		divtxt = divtxt + "<div class = \"box\"><a href = \"" + url + "\"><h2>" + out[i].name + "</h2><p>" + desc + "</p></a></div>";
            	}
 		document.getElementById("projectstab").innerHTML = divtxt;
 	})
