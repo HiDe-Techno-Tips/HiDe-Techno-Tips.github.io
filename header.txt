@@ -3,4 +3,4 @@
 		<p><b>HiDe Techno Tips</b></p>
 </a>
 <script src="https://apis.google.com/js/platform.js"></script>
-<div class="g-ytsubscribe" data-channelid="UCy3fBVKd0RMY05CgiiuGqSA" data-layout="" data-count="default"></div>
+<div class="g-ytsubscribe" data-channelid="UCy3fBVKd0RMY05CgiiuGqSA" data-layout="" data-count="default" style="height: 50px"></div>
