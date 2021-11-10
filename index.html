@@ -9,7 +9,14 @@
     </script>
 
 <body>
-  <header id = "header"/>
+<header id = "header"/>
+<div class="tab">
+  <button class="tablinks" onclick="opentab(event, 'hometab');" id="home">Home</button>
+  <button class="tablinks" onclick="opentab(event, 'projectstab');" id="projects">Projects</button>
+  <button class="tablinks" onclick="opentab(event, 'giststab');" id="gists">Guides</button>
+  <button class="tablinks" onclick="opentab(event, 'abouttab');" id="about">About</button>
+  <button class="tablinks" onclick="opentab(event, 'donatetab');" id="donate">Donate</button>
+</div>
     <script>
 	fetch("https://HiDe-Techno-Tips.github.io/header.html").then(function(response) {
 	  response.text().then(function(text) {
@@ -18,13 +25,7 @@
 	});
     </script>
 
-<div class="tab">
-  <button class="tablinks" onclick="opentab(event, 'hometab');" id="home">Home</button>
-  <button class="tablinks" onclick="opentab(event, 'projectstab');" id="projects">Projects</button>
-  <button class="tablinks" onclick="opentab(event, 'giststab');" id="gists">Guides</button>
-  <button class="tablinks" onclick="opentab(event, 'abouttab');" id="about">About</button>
-  <button class="tablinks" onclick="opentab(event, 'donatetab');" id="donate">Donate</button>
-</div>
+
 
 <div id="hometab" class="tabcontent">
 	<div style="height: 300px; position: relative; border: none; ">
