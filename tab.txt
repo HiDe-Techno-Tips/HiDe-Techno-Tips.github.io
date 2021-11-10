@@ -1,5 +1,5 @@
-  <button class="tablinks" id="home">Home</button>
-  <button class="tablinks" id="projects">Projects</button>
-  <button class="tablinks" id="gists">Guides</button>
-  <button class="tablinks" id="about">About</button>
-  <button class="tablinks" id="donate">Donate</button>
+<button class="tablinks" onclick="document.location='https://hide-techno-tips.github.io?tab=home'">Home</button>
+<button class="tablinks" onclick="document.location='https://hide-techno-tips.github.io?tab=projects'">Projects</button>
+<button class="tablinks" onclick="document.location='https://hide-techno-tips.github.io?tab=gists'">Guides</button>
+<button class="tablinks" onclick="document.location='https://hide-techno-tips.github.io?tab=about'">About</button>
+<button class="tablinks" onclick="document.location='https://hide-techno-tips.github.io?tab=donate'">Donate</button>
