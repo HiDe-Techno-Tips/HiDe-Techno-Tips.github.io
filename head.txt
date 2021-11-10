@@ -74,12 +74,14 @@ footer {
   border-top: none;
 }
 .box a {
+margin-left: 5px;
 text-decoration: none;
 }
 .box a p {
 color: white;
 }
 .box {
+width: 100%;
 background-color: #0d1117;
 border: 2px solid #30363d;
 border-radius: 10px;
