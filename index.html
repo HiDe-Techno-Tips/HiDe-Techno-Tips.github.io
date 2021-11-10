@@ -28,7 +28,6 @@
   <button class="tablinks" onclick="opentab(event, 'hometab');" id="home">Home</button>
   <button class="tablinks" onclick="opentab(event, 'projectstab');" id="projects">Projects</button>
   <button class="tablinks" onclick="opentab(event, 'giststab');" id="gists">Guides</button>
-  <button class="tablinks" onclick="opentab(event, 'abouttab');" id="about">About</button>
   <button class="tablinks" onclick="opentab(event, 'donatetab');" id="donate">Donate</button>
 </div>
 
@@ -54,6 +53,9 @@
                		if (out[i] == null) {
                    		break;
                    	}
+                    if (out[i].name.toLowerCase() == out[i].owner.login.toLowerCase() || out[i].name.toLowerCase() == out[i].owner.login.toLowerCase() + ".github.io") {
+                    	continue;
+                    }
                		desc = "";
                		if (out[i].description != null) {
                    		desc = out[i].description;
@@ -86,10 +88,7 @@
            	}
 		document.getElementById("giststab").innerHTML = divtxt;
 	})
-</script>	
-
-<div id="abouttab" class="tabcontent">
-</div>
+</script>
 
 <div id="donatetab" class="tabcontent">
 </div>
