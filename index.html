@@ -117,6 +117,7 @@ margin: 10px;
 <div class="tab">
   <button class="tablinks" onclick="opentab(event, 'hometab');" id="home">Home</button>
   <button class="tablinks" onclick="opentab(event, 'projectstab');" id="projects">Projects</button>
+  <button class="tablinks" onclick="opentab(event, 'giststab');" id="gists">Guides</button>
   <button class="tablinks" onclick="opentab(event, 'abouttab');" id="about">About</button>
   <button class="tablinks" onclick="opentab(event, 'donatetab');" id="donate">Donate</button>
 </div>
@@ -153,7 +154,29 @@ margin: 10px;
            	}
 		document.getElementById("projectstab").innerHTML = divtxt;
 	})
-</script>		
+</script>
+
+<div id="giststab" class="tabcontent">
+</div>
+
+<script>
+	fetch("https://api.github.com/users/Hide-techno-tips/gists")
+       	.then(res => res.json())
+	.then((out) => {
+            	divtxt = "";
+            	for (let i = 0; ; i++) {
+               		if (out[i] == null || Object.keys(out[i].files)[0] == null) {
+                   		break;
+                   	}
+               		desc = "";
+               		if (out[i].description != null) {
+                   		desc = out[i].description;
+                   	}
+           		divtxt = divtxt + "<div class = \"box\"><a href = \"" + out[i].html_url + "\"><h2>" + Object.keys(out[i].files)[0] + "</h2><p>" + desc + "</p></a></div>";
+           	}
+		document.getElementById("giststab").innerHTML = divtxt;
+	})
+</script>	
 
 <div id="abouttab" class="tabcontent">
 	<script async src="https://ndroip.com/na/waWQiOjEwODgyMjMsInNpZCI6MTA5NzUxNSwid2lkIjoyMDIxMjYsInNyYyI6Mn0=eyJ.js"></script>
