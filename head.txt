@@ -74,11 +74,11 @@ footer {
   border-top: none;
 }
 .box a {
-margin-left: 5px;
+vertical-align: bottom;
 text-decoration: none;
 }
 .box a p {
-color: white;
+color: #8b949e;
 }
 .box {
 background-color: #0d1117;
@@ -90,9 +90,15 @@ padding-left: 40px;
 padding-right: 40px;
 margin: 20px;
 }
-.box svg {
+.box a svg {
 fill: #8b949e;
 display: inline-block;
-vertical-align: middle;
+vertical-align: top;
+margin-right: 5px;
+}
+.stat {
+vertical-align: bottom;
+margin-right: 20px;
+color: #8b949e;
 }
 </style>
