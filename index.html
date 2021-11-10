@@ -1,99 +1,12 @@
 <html lang="en">
-<head>
-<title>HiDe Techno Tips</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-body {
-color: white;
-background-color: #0d1117;
-font-family: Arial, Helvetica, sans-serif;
-}
-header {
-  background-color: #343942;
-  padding: 10px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-
-.blackbk {
-  background-color: #000;
-  padding:20px;
-  position: absolute;
-  left: 50%;
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-  font-size: 20px;
-  height: 300px;
-  max-width: 800px;
-  color: white;
-}
-
-footer {
-  background-color: #343942;
-  padding: 10px;
-  text-align: center;
-}
-
-.tab {
-  overflow: hidden;
-  border: none;
-  background-color: #161b22;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 5px;
-  z-index:1;
-}
-
-.tab button {
-  background-color: inherit;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 10px 10px;
-  transition: 0.3s;
-  font-size: 17px;
-}
-
-.tab button:hover {
-  background-color: #30363d;
-}
-
-.tab button.active {
-  background-color: #343942;
-}
-
-.tabcontent {
-  animation: fadeEffect 1s
-  display: none;
-  padding: 6px 12px;
-  border: none;
-  border-top: none;
-}
-.box a {
-text-decoration: none;
-}
-.box a p {
-color: white;
-}
-.box {
-background-color: #0d1117;
-border: 2px solid #30363d;
-border-radius: 10px;
-padding-top: 10px;
-padding-bottom: 20px;
-padding-left: 40px;
-padding-right: 40px;
-margin: 10px;
-}
-</style>
-</head>
+  <head id = "head"/>
+    <script>
+		fetch("https://HiDe-Techno-Tips.github.io/head.html").then(function(response) {
+    		response.text().then(function(text) {
+    			document.getElementById("head").innerHTML = text;
+    		});
+  		});
+    </script>
 
 <body>
 <header>
