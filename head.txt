@@ -28,8 +28,13 @@ header div {
 header div button {
   color: white;
   background-color: #0d1117;
-  display: none;
-  padding: 12px 12px;
+  display: inline-flex;
+  align-items: center; 
+  font-size: 16px;
+  padding-top: 6px ;
+  padding-bottom: 6px ;
+  padding-right: 12px;
+  padding-left: 8px;
   border: none;
 }
 
@@ -69,7 +74,13 @@ footer div {
 footer div button {
   color: white;
   background-color: #0d1117;
-  padding: 12px 12px;
+  display: inline-flex;
+  align-items: center; 
+  font-size: 16px;
+  padding-top: 6px ;
+  padding-bottom: 6px ;
+  padding-right: 12px;
+  padding-left: 8px;
   border: none;
 }
 
