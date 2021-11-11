@@ -109,6 +109,7 @@ footer div div button:hover {
   top: 5px;
   z-index:1;
   border-radius: 25px;
+  margin-top: 10px;
 }
 
 .tab button {
@@ -124,7 +125,9 @@ footer div div button:hover {
 }
 
 .tab button:hover {
-  background-color: #161b22;
+  background-color: #1F2630;
+  margin-left: 5px
+  margin-right: 5px
 }
 
 .tab button.active {
