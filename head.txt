@@ -61,7 +61,6 @@ footer {
   background-color: #343942;
   padding: 10px;
   text-align: center;
-  display: inline-flex;
 }
 
 footer div {
