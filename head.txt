@@ -17,16 +17,20 @@ header {
   padding: 10px;
   text-align: center;
   font-size: 35px;
-  display: inline-flex;
 }
 
 header div {
+  display: inline-flex;
+}
+
+header div div {
   text-align: center;
   display: inline-block;
   margin: 10px;
+  margin-bottom: 25px;
 }
 
-header div button {
+header div div button {
   color: white;
   background-color: #0d1117;
   display: inline-flex;
@@ -40,7 +44,7 @@ header div button {
   cursor: pointer;
 }
 
-header div button:hover {
+header div div button:hover {
   background-color: #161b22;
 }
 
@@ -64,7 +68,6 @@ footer {
 }
 
 footer div {
-  text-align: center;
   display: inline-flex;
 }
 
@@ -72,6 +75,7 @@ footer div div {
   text-align: center;
   display: inline-block;
   margin: 10px;
+  margin-bottom: 25px;
 }
 
 footer div div button {
