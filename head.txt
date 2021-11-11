@@ -22,6 +22,7 @@ header {
 
 header div {
   display: inline-block;
+  margin:20px
 }
 
 .blackbk {
@@ -45,6 +46,7 @@ footer {
 
 footer div {
   display: inline-block;
+  margin:20px
 }
 
 .tab {
