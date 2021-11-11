@@ -21,8 +21,9 @@ header {
 }
 
 header div {
+  text-align:center;
   display: inline-block;
-  margin:20px
+  margin:10px;
 }
 
 .blackbk {
@@ -45,8 +46,9 @@ footer {
 }
 
 footer div {
+  text-align:center;
   display: inline-block;
-  margin:20px
+  margin:10px;
 }
 
 .tab {
