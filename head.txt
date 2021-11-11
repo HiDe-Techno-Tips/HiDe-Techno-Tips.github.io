@@ -4,12 +4,15 @@
 
 * {
   box-sizing: border-box;
-  text-decoration: none;
-  color: #58a6ff;
 }
 
 *:hover {
   text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #58a6ff;
 }
 
 .nodeclink:hover {
