@@ -160,6 +160,10 @@ footer div div button:hover {
   color: white;
 }
 
+.tab button.active span {
+  background-color: #161b22;
+}
+
 .tabcontent {
   animation: fadeEffect 1s;
   display: none;
