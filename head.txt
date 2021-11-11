@@ -132,8 +132,8 @@ footer div div a button:hover {
 .tab button {
   margin-left: 5px;
   margin-right: 5px;
-  margin-top: 11px;
-  margin-bottom: 11px;
+  margin-top: 12px;
+  margin-bottom: 12px;
   background-color: inherit;
   color: white;
   float: left;
