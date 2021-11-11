@@ -1,5 +1,5 @@
 <div style="text-align:left">
 <h2>Did you like my Website?</h2>
 <p>You can make one for yourself</p>
-<button style="position:absolute;" onclick="document.location='https://github.com/HiDe-Techno-Tips/HiDe-Techno-Tips.github.io'">View its Source Code</button>
+<button onclick="document.location='https://github.com/HiDe-Techno-Tips/HiDe-Techno-Tips.github.io'">View its Source Code</button>
 </div>
