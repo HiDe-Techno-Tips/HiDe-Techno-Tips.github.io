@@ -4,11 +4,15 @@
 
 * {
   box-sizing: border-box;
+  text-decoration: none;
 }
 
-.nodeclink {
+*:hover {
+  text-decoration: underline;
+}
+
+.nodeclink:hover {
   text-decoration: none;
-  color: inherit;
 }
 
 body {
