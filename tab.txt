@@ -1,4 +1,4 @@
-<a href="https://hide-techno-tips.github.io?tab=home"><button class="tablinks">Home</button></a>
-<a href="https://hide-techno-tips.github.io?tab=projects"><button class="tablinks">Projects</button></a>
-<a href="https://hide-techno-tips.github.io?tab=gists"><button class="tablinks">Guides</button></a>
-<a href="https://hide-techno-tips.github.io?tab=donate"><button class="tablinks">Donate</button></a>
+<a class="nodeclink" href="https://hide-techno-tips.github.io?tab=home"><button class="tablinks">Home</button></a>
+<a class="nodeclink" href="https://hide-techno-tips.github.io?tab=projects"><button class="tablinks">Projects</button></a>
+<a class="nodeclink" href="https://hide-techno-tips.github.io?tab=gists"><button class="tablinks">Guides</button></a>
+<a class="nodeclink" href="https://hide-techno-tips.github.io?tab=donate"><button class="tablinks">Donate</button></a>
