@@ -17,8 +17,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.button {
-  transform: scale(1.5);
+.button:hover {
+  transform: scale(1.2);
 }
 
 header {
