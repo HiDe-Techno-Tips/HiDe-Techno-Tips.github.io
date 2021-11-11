@@ -17,11 +17,12 @@ header {
   padding: 10px;
   text-align: center;
   font-size: 35px;
+  display: inline-flex;
 }
 
 header div {
   text-align: center;
-  display: inline-flex;
+  display: inline-block;
   margin: 10px;
 }
 
@@ -60,11 +61,12 @@ footer {
   background-color: #343942;
   padding: 10px;
   text-align: center;
+  display: inline-flex;
 }
 
 footer div {
   text-align: center;
-  display: inline-flex;
+  display: inline-block;
   margin: 10px;
 }
 
