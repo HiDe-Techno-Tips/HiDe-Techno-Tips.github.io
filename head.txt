@@ -66,11 +66,16 @@ footer {
 
 footer div {
   text-align: center;
+  display: inline-flex;
+}
+
+footer div div {
+  text-align: center;
   display: inline-block;
   margin: 10px;
 }
 
-footer div button {
+footer div div button {
   color: white;
   background-color: #0d1117;
   display: inline-flex;
@@ -84,7 +89,7 @@ footer div button {
   cursor: pointer;
 }
 
-footer div button:hover {
+footer div div button:hover {
   background-color: #161b22;
 }
 
