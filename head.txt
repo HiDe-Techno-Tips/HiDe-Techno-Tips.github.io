@@ -21,7 +21,7 @@ header {
 
 header div {
   text-align: center;
-  display: inline-block;
+  display: inline-flex;
   margin: 10px;
 }
 
@@ -41,10 +41,6 @@ header div button {
 
 header div button:hover {
   background-color: #161b22;
-}
-
-header div button.active {
-  background-color: #30363d;
 }
 
 .blackbk {
@@ -68,7 +64,7 @@ footer {
 
 footer div {
   text-align: center;
-  display: inline-block;
+  display: inline-flex;
   margin: 10px;
 }
 
@@ -88,10 +84,6 @@ footer div button {
 
 footer div button:hover {
   background-color: #161b22;
-}
-
-footer div button.active {
-  background-color: #30363d;
 }
 
 .tab {
