@@ -17,6 +17,7 @@ header {
   padding: 10px;
   padding-bottom: 30px;
   text-align: center;
+  border-radius: 25px;
 }
 
 header div {
@@ -37,9 +38,11 @@ header div div button {
   padding-top: 6px ;
   padding-bottom: 6px ;
   padding-right: 12px;
-  padding-left: 8px;
+  padding-left: 6px;
   border: none;
   cursor: pointer;
+  transition: 0.3s;
+  border-radius: 21px;
 }
 
 header div div button:hover {
@@ -63,6 +66,7 @@ footer {
   background-color: #343942;
   padding: 10px;
   text-align: center;
+  border-radius: 25px;
 }
 
 footer div {
@@ -85,9 +89,11 @@ footer div div button {
   padding-top: 6px ;
   padding-bottom: 6px ;
   padding-right: 12px;
-  padding-left: 8px;
+  padding-left: 6px;
   border: none;
   cursor: pointer;
+  transition: 0.3s;
+  border-radius: 21px;
 }
 
 footer div div button:hover {
@@ -102,6 +108,7 @@ footer div div button:hover {
   position: sticky;
   top: 5px;
   z-index:1;
+  border-radius: 25px;
 }
 
 .tab button {
@@ -143,7 +150,7 @@ color: #8b949e;
 .box {
 background-color: #0d1117;
 border: 2px solid #30363d;
-border-radius: 10px;
+border-radius: 20px;
 padding-top: 30px;
 padding-bottom: 20px;
 padding-left: 40px;
