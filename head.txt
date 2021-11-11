@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+.nodeclink {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
 color: white;
 background-color: #0d1117;
