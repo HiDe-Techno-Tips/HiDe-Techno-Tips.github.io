@@ -88,6 +88,7 @@
 	fetch("https://api.github.com/users/Hide-techno-tips/gists")
        	.then(res => res.json())
 	.then((out) => {
+		count = 0;
             	divtxt = "";
             	for (let i = 0; ; i++) {
                		if (out[i] == null || Object.keys(out[i].files)[0] == null) {
@@ -98,7 +99,9 @@
                    		desc = out[i].description;
                    	}
            		divtxt = divtxt + "<div class = \"box\"><a href = \"" + out[i].html_url + "\"><h2>" + Object.keys(out[i].files)[0] + "</h2><p>" + desc + "</p></a></div>";
-           	}
+           		count++;
+		}
+		document.getElementById("gists").innerHTML = "Guides " + "<span>" + count + "</span>";
 		document.getElementById("giststab").innerHTML = divtxt;
 	})
 </script>
