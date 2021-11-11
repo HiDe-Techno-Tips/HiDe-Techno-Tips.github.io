@@ -17,7 +17,7 @@ header {
   padding: 10px;
   padding-bottom: 30px;
   text-align: center;
-  border-radius: 25px;
+  border-radius: 29px;
 }
 
 header div {
@@ -66,7 +66,7 @@ footer {
   background-color: #343942;
   padding: 10px;
   text-align: center;
-  border-radius: 25px;
+  border-radius: 29px;
 }
 
 footer div {
@@ -98,6 +98,12 @@ footer div div button {
 
 footer div div button:hover {
   background-color: #161b22;
+  font-size: 18px;
+  padding-top: 8px ;
+  padding-bottom: 8px ;
+  padding-right: 14px;
+  padding-left: 8px;
+  border-radius: 23px;
 }
 
 .tab {
@@ -108,7 +114,7 @@ footer div div button:hover {
   position: sticky;
   top: 5px;
   z-index:1;
-  border-radius: 25px;
+  border-radius: 29px;
   margin-top: 10px;
 }
 
