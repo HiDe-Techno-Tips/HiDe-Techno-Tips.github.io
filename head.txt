@@ -150,7 +150,8 @@ footer div div button:hover {
 }
 
 .tab button span {
-  font-size: 14px;
+  vertical-align: middle;
+  font-size: 12px;
   display: inline-block;
   background-color: #343942;
   border-radius: 10px;
