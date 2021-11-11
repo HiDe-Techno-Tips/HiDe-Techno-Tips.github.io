@@ -149,6 +149,16 @@ footer div div button:hover {
   margin: 5px;
 }
 
+.tab button span {
+  display: inline-block;
+  background-color: #8b949e;
+  border-radius: 10px;
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: white;
+}
+
 .tabcontent {
   animation: fadeEffect 1s;
   display: none;
