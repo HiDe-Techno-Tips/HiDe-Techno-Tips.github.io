@@ -1,20 +1,27 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+
 * {
   box-sizing: border-box;
 }
+
 body {
 color: white;
 background-color: #0d1117;
 font-family: Arial, Helvetica, sans-serif;
 }
+
 header {
   background-color: #343942;
   padding: 10px;
   text-align: center;
   font-size: 35px;
   color: white;
+}
+
+header div {
+  display: inline-block;
 }
 
 .blackbk {
@@ -34,6 +41,10 @@ footer {
   background-color: #343942;
   padding: 10px;
   text-align: center;
+}
+
+footer div {
+  display: inline-block;
 }
 
 .tab {
@@ -73,13 +84,16 @@ footer {
   border: none;
   border-top: none;
 }
+
 .box a {
 vertical-align: bottom;
 text-decoration: none;
 }
+
 .box a p {
 color: #8b949e;
 }
+
 .box {
 background-color: #0d1117;
 border: 2px solid #30363d;
@@ -90,12 +104,14 @@ padding-left: 40px;
 padding-right: 40px;
 margin: 20px;
 }
+
 .box a svg {
 fill: #8b949e;
 display: inline-block;
 vertical-align: top;
 margin-right: 5px;
 }
+
 .stat {
 vertical-align: bottom;
 margin-right: 20px;
