@@ -112,13 +112,15 @@ footer div div button:hover {
   margin-top: 10px;
 }
 
-.tab button {
-  margin-left: 5px;
-  margin-right: 5px;
-  position: absolute;
+.vercen {
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+.tab .vercen button {
+  margin-left: 5px;
+  margin-right: 5px;
   background-color: inherit;
   color: white;
   float: left;
@@ -131,13 +133,13 @@ footer div div button:hover {
   border-radius: 25px;
 }
 
-.tab button:hover {
+.tab .vercen button:hover {
   background-color: #1F2630;
   font-size: 18px;
   padding: 15px;
 }
 
-.tab button.active {
+.tab .vercen button.active {
   background-color: #343942;
   font-size: 18px;
   padding: 15px;
