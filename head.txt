@@ -29,7 +29,7 @@ header div div {
   display: inline-block;
 }
 
-header div div button {
+header div div a button {
   color: white;
   background-color: #0d1117;
   display: inline-flex;
@@ -45,8 +45,14 @@ header div div button {
   border-radius: 21px;
 }
 
-header div div button:hover {
+header div div a button:hover {
   background-color: #161b22;
+  font-size: 18px;
+  padding-top: 8px ;
+  padding-bottom: 8px ;
+  padding-right: 14px;
+  padding-left: 8px;
+  border-radius: 23px;
 }
 
 .blackbk {
@@ -80,7 +86,7 @@ footer div div {
   margin-top: 0px;
 }
 
-footer div div button {
+footer div div a button {
   color: white;
   background-color: #0d1117;
   display: inline-flex;
@@ -96,7 +102,7 @@ footer div div button {
   border-radius: 21px;
 }
 
-footer div div button:hover {
+footer div div a button:hover {
   background-color: #161b22;
   font-size: 18px;
   padding-top: 8px ;
