@@ -1,3 +1,3 @@
-<h2>Did you like my Website?</h2>
-<p>You can make one for yourself</p>
-<button onclick="document.location='https://github.com/HiDe-Techno-Tips/HiDe-Techno-Tips.github.io">View its Source Code<button>
+<h2 align="left">Did you like my Website?</h2>
+<p align="left">You can make one for yourself</p>
+<button align="left" onclick="document.location='https://github.com/HiDe-Techno-Tips/HiDe-Techno-Tips.github.io">View its Source Code</button>
