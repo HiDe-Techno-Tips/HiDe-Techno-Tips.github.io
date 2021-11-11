@@ -122,6 +122,7 @@ footer div div button:hover {
   padding: 10px 10px;
   transition: 0.3s;
   font-size: 17px;
+  border-radius: 25px;
 }
 
 .tab button:hover {
