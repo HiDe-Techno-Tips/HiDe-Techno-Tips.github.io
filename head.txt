@@ -5,6 +5,7 @@
 * {
   box-sizing: border-box;
   text-decoration: none;
+  color: #58a6ff;
 }
 
 *:hover {
