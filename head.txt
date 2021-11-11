@@ -36,6 +36,7 @@ header div button {
   padding-right: 12px;
   padding-left: 8px;
   border: none;
+  cursor: pointer;
 }
 
 header div button:hover {
@@ -82,6 +83,7 @@ footer div button {
   padding-right: 12px;
   padding-left: 8px;
   border: none;
+  cursor: pointer;
 }
 
 footer div button:hover {
