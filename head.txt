@@ -123,19 +123,21 @@ footer div div button:hover {
   transition: 0.3s;
   font-size: 16px;
   border-radius: 25px;
-  margin-right: 5px;
+  margin: 9px;
 }
 
 .tab button:hover {
   background-color: #1F2630;
   font-size: 18px;
   padding: 12px;
+  margin: 5px;
 }
 
 .tab button.active {
   background-color: #343942;
   font-size: 18px;
   padding: 12px;
+  margin: 5px;
 }
 
 .tabcontent {
