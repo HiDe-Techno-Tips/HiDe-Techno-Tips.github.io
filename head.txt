@@ -15,6 +15,7 @@ font-family: Arial, Helvetica, sans-serif;
 header {
   background-color: #343942;
   padding: 10px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
