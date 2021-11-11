@@ -64,7 +64,6 @@ header div div button:hover {
 footer {
   background-color: #343942;
   padding: 10px;
-  text-align: center;
 }
 
 footer div {
