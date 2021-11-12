@@ -250,6 +250,7 @@ footer div div a button:hover {
   background-color: white;
   margin: 4px;
   transition: 0.4s;
+  border-radius: 3px;
 }
 
 .change .bar1 {
