@@ -26,7 +26,13 @@
 </script>
 
 <div id="tabbar" class="tab">
-  <button class="tabmenu" onclick="Menu()">Menu</button>
+  <div class="tabmenu" onclick="Menu(&quot;menu&quot;)">
+    <div class="hamicon" id="menu">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+    </div>
+  </div>
   <button class="activetab" id="activetab"></button>
   <button class="tablinks" onclick="opentab(event, 'hometab');" id="home">Home</button>
   <button class="tablinks" onclick="opentab(event, 'projectstab');" id="projects">Projects</button>
@@ -140,7 +146,8 @@ document.getElementById('home').click();
 document.getElementById(tab).click();
 }
 
-function Menu() {
+function Menu(icon) {
+  document.getElementById(icon).classList.toggle("change");
   var x = document.getElementById("tabbar");
   if (x.className === "tab") {
     x.className += " responsive";
