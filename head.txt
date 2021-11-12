@@ -196,7 +196,7 @@ footer div div a button:hover {
 }
 
 .tab .tabmenu:hover {
-  background-color: #343942;
+  background-color: #1f2630;
 }
 
 .tab button span {
