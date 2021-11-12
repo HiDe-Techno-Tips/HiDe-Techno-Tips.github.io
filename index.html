@@ -25,7 +25,9 @@
   		});
 </script>
 
-<div class="tab">
+<div id="tabbar" class="tab">
+  <button class="tabmenu" onclick="Menu()">Menu</button>
+  <button class="activetab" id="activetab"></button>
   <button class="tablinks" onclick="opentab(event, 'hometab');" id="home">Home</button>
   <button class="tablinks" onclick="opentab(event, 'projectstab');" id="projects">Projects</button>
   <button class="tablinks" onclick="opentab(event, 'giststab');" id="gists">Guides</button>
@@ -116,6 +118,7 @@ function opentab(evt, tabName) {
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
+  document.getElementById("activetab").innerHTML=document.getElementById(tabName-'tab').innerHTML;
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 }
@@ -135,6 +138,15 @@ document.addEventListener("DOMContentLoaded", theDomHasLoaded, false);
 function theDomHasLoaded(e) {
 document.getElementById('home').click();
 document.getElementById(tab).click();
+}
+
+function Menu() {
+  var x = document.getElementById("tabbar");
+  if (x.className === "tab") {
+    x.className += " responsive";
+  } else {
+    x.className = "tab";
+  }
 }
 </script>
 
