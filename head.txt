@@ -187,7 +187,6 @@ footer div div a button:hover {
 
 .tab .tabmenu {
   border-radius: 50%;
-  background-color: #343942;
   cursor: pointer;
   height: 50px;
   width: 50px;
@@ -197,11 +196,7 @@ footer div div a button:hover {
 }
 
 .tab .tabmenu:hover {
-  background-color: #1f2630;
-  height: 55px;
-  width: 55px;
-  margin: 4px;
-  padding: 2px;
+  background-color: #343942;
 }
 
 .tab button span {
