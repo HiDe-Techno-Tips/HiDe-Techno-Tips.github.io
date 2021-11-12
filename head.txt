@@ -259,15 +259,15 @@ footer div div a button:hover {
 }
 
 .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-7px, 6px);
-  transform: rotate(-45deg) translate(-7px, 6px);
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
 }
 
 .change .bar2 {opacity: 0;}
 
 .change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-7px, -7px);
-  transform: rotate(45deg) translate(-7px, -7px);
+  -webkit-transform: rotate(45deg) translate(-6px, -7px);
+  transform: rotate(45deg) translate(-6px, -7px);
 }
 
 .box a {
