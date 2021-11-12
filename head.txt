@@ -220,6 +220,7 @@ footer div div a button:hover {
     display: none;
   }
   .tab .tabmenu {
+    background-color: #343942;
     float: left;
     display: block;
   }
