@@ -177,6 +177,15 @@ footer div div a button:hover {
   margin: 5px;
 }
 
+.tab .activetab {
+  background-color: #343942;
+  display: none;
+}
+
+.tab .tabmenu {
+  display: none;
+}
+
 .tab button span {
   vertical-align: middle;
   font-size: 12px;
@@ -191,6 +200,27 @@ footer div div a button:hover {
 
 .tab button.active span {
   background-color: #161b22;
+}
+
+@media screen and (max-width: 800px) {
+  .tab button.tablinks {
+    display: none;
+  }
+  .tab .tabmenu {
+    float: left;
+    display: block;
+  }
+  .tab .activetab:not(:empty) {
+    float: none;
+    display: block;
+  }
+  .tab.responsive button.tablinks {
+    float: none;
+    display: block;
+  }
+  .tab.responsive button.tablinks.active {
+    display: none;
+  }
 }
 
 .tabcontent {
