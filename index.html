@@ -102,7 +102,6 @@
            		divtxt = divtxt + "<div class = \"box\"><a href = \"" + out[i].html_url + "\"><h2>" + Object.keys(out[i].files)[0] + "</h2><p>" + desc + "</p></a></div>";
            		count++;
 		}
-		document.getElementById("activetab").innerHTML=document.getElementById(tabName.replace('tab', ' ')).innerHTML;
 		document.getElementById("gists").innerHTML = "Guides " + "<span>" + count + "</span>";
 		document.getElementById("giststab").innerHTML = divtxt;
 	})
@@ -119,6 +118,7 @@ function opentab(evt, tabName) {
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
+  document.getElementById("activetab").innerHTML=document.getElementById(tabName.replace('tab', ' ')).innerHTML;
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 }
