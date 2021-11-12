@@ -195,6 +195,13 @@ footer div div a button:hover {
   display: none;
 }
 
+.tab .tabmenu:hover {
+  height: 55px;
+  width: 55px;
+  margin: 4px;
+  padding: 2px;
+}
+
 .tab button span {
   vertical-align: middle;
   font-size: 12px;
