@@ -192,7 +192,7 @@ footer div div a button:hover {
   width: 50px;
   margin: 6px;
   display: none;
-  transition: 0.2s;
+  transition: 1s;
 }
 
 .tab .tabmenu:hover {
