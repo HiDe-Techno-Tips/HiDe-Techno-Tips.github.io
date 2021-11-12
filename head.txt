@@ -193,9 +193,11 @@ footer div div a button:hover {
   width: 50px;
   margin: 6px;
   display: none;
+  transition: 0.2s;
 }
 
 .tab .tabmenu:hover {
+  background-color: #1f2630;
   height: 55px;
   width: 55px;
   margin: 4px;
