@@ -240,7 +240,6 @@ footer div div a button:hover {
 .tabcontent {
   animation: fadeEffect 1s;
   display: none;
-  padding: 6px 12px;
   border: none;
 }
 
@@ -282,11 +281,11 @@ color: #8b949e;
 .box {
 background-color: #0d1117;
 border: 2px solid #30363d;
-border-radius: 20px;
+border-radius: 25px;
 padding-top: 30px;
 padding-bottom: 20px;
-padding-left: 40px;
-padding-right: 40px;
+padding-left: 30px;
+padding-right: 30px;
 margin: 20px;
 }
 
