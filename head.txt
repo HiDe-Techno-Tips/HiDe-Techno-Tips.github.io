@@ -186,6 +186,11 @@ footer div div a button:hover {
 }
 
 .tab .tabmenu {
+  border-radius: 50%;
+  background-color: grey;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
   display: none;
 }
 
@@ -231,14 +236,6 @@ footer div div a button:hover {
   display: none;
   padding: 6px 12px;
   border: none;
-}
-
-.button {
-  border-radius: 50%;
-  background-color: grey;
-  cursor: pointer;
-  height: 50px;
-  width: 50px;
 }
 
 .hamicon {
