@@ -102,6 +102,7 @@
            		divtxt = divtxt + "<div class = \"box\"><a href = \"" + out[i].html_url + "\"><h2>" + Object.keys(out[i].files)[0] + "</h2><p>" + desc + "</p></a></div>";
            		count++;
 		}
+		document.getElementById("activetab").innerHTML=document.getElementById(tabName.replace('tab', ' ')).innerHTML;
 		document.getElementById("gists").innerHTML = "Guides " + "<span>" + count + "</span>";
 		document.getElementById("giststab").innerHTML = divtxt;
 	})
