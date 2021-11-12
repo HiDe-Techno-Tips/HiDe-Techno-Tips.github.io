@@ -223,10 +223,12 @@ footer div div a button:hover {
     float: none;
     display: block;
   }
-  .tab.responsive .tabmenu {
-    background-color: #343942;
+  .tab .tabmenu {
     float: left;
     display: block;
+  }
+  .tab.responsive .tabmenu {
+    background-color: #343942;
   }
   .tab.responsive button.tablinks {
     float: none;
