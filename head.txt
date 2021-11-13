@@ -181,7 +181,7 @@ footer div div a button:hover {
   padding: 9px;
   font-size: 18px;
   border-radius: 27px;
-  margin: 5px 0px;
+  margin: 6px 0px;
 }
 
 .tab button:not(.activetab):not(.active):hover {
@@ -189,6 +189,7 @@ footer div div a button:hover {
   background-color: #1F2630;
   font-size: 21px;
   padding: 14px;
+  margin: 0px;
 }
 
 .tab button.active {
