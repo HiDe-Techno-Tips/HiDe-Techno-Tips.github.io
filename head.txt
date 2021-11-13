@@ -208,7 +208,7 @@ footer div div a button:hover {
   cursor: pointer;
   height: 50px;
   width: 50px;
-  margin: 6px;
+  margin: 7px;
   display: none;
   transition: 1s;
 }
