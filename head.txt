@@ -13,11 +13,6 @@ svg {
   margin-right: 5px;
 }
 
-button svg {
-  display: inline-block;
-  vertical-align: middle;
-}
-
 a {
   transition: 0.3s;
   text-decoration: none;
