@@ -172,7 +172,6 @@ footer div div a button:hover {
   outline: none;
   cursor: pointer;
   padding: 9px;
-  transition: 0.2s;
   font-size: 18px;
   border-radius: 27px;
 }
@@ -210,7 +209,7 @@ footer div div a button:hover {
   width: 50px;
   margin: 7px;
   display: none;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .tab .tabmenu:hover {
