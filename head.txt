@@ -274,6 +274,19 @@ footer div div a button:hover {
   .tab.responsive button.tablinks.active {
     display: none;
   }
+
+  .tab.responsive .tabmenu.hamicon .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+  }
+
+  .tab.responsive .tabmenu.hamicon .bar2 {opacity: 0;}
+
+  .tab.responsive .tabmenu.hamicon .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -7px);
+    transform: rotate(45deg) translate(-6px, -7px);
+  }
+
 }
 
 .tabcontent {
@@ -294,18 +307,6 @@ footer div div a button:hover {
   margin: 4px;
   transition: 0.4s;
   border-radius: 3px;
-}
-
-.change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
-  transform: rotate(-45deg) translate(-6px, 6px);
-}
-
-.change .bar2 {opacity: 0;}
-
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-6px, -7px);
-  transform: rotate(45deg) translate(-6px, -7px);
 }
 
 .box {
