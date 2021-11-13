@@ -9,7 +9,7 @@
 svg {
   fill: #8b949e;
   display: inline-block;
-  vertical-align: text-bottom;
+  vertical-align: middle;
   margin-right: 5px;
 }
 
