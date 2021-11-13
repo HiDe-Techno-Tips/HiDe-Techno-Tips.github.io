@@ -17,6 +17,7 @@ a:hover {
 }
 
 a p {
+  text-decoration: none;
   text-shadow: none;
 }
 
@@ -283,10 +284,6 @@ footer div div a button:hover {
   transform: rotate(45deg) translate(-6px, -7px);
 }
 
-.box a p {
-color: #8b949e;
-}
-
 .box {
 background-color: #0d1117;
 border: 2px solid #30363d;
@@ -303,6 +300,10 @@ fill: #8b949e;
 display: inline-block;
 vertical-align: top;
 margin-right: 5px;
+}
+
+.box a p {
+  color: #8b949e;
 }
 
 .stat {
