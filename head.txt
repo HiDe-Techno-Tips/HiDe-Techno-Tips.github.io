@@ -263,7 +263,7 @@ footer div div a button:hover {
   .tab .activetab:empty {
     background-color: inherit;
     padding: 0px;
-    margin: 27px;
+    margin: 44px;
   }
   
   .tab .tabmenu {
