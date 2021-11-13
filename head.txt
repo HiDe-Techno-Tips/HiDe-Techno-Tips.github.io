@@ -275,14 +275,14 @@ footer div div a button:hover {
     display: none;
   }
 
-  .tab.responsive .tabmenu.hamicon .bar1 {
+  .tab.responsive .tabmenu .hamicon .bar1 {
     -webkit-transform: rotate(-45deg) translate(-6px, 6px);
     transform: rotate(-45deg) translate(-6px, 6px);
   }
 
-  .tab.responsive .tabmenu.hamicon .bar2 {opacity: 0;}
+  .tab.responsive .tabmenu .hamicon .bar2 {opacity: 0;}
 
-  .tab.responsive .tabmenu.hamicon .bar3 {
+  .tab.responsive .tabmenu .hamicon .bar3 {
     -webkit-transform: rotate(45deg) translate(-6px, -7px);
     transform: rotate(45deg) translate(-6px, -7px);
   }
