@@ -80,6 +80,7 @@ header div {
 header div div {
   text-align: center;
   display: inline-block;
+  min-width: 230px;
 }
 
 header div div a button {
@@ -136,6 +137,7 @@ footer div {
 footer div div {
   text-align: center;
   display: inline-block;
+  min-width: 230px;
   margin: 0px 10px;
 }
 
