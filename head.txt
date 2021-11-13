@@ -247,7 +247,7 @@ footer div div a button:hover {
   background-color: #161b22;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .tab button.tablinks {
     display: none;
   }
