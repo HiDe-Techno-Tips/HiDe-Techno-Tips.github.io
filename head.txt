@@ -33,6 +33,7 @@ a p {
 }
 
 body {
+  margin: 0px;
   padding: 10px;
   min-width: 300px;
   color: white;
