@@ -30,12 +30,20 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.button {
-  transition: 0.2s;
+.button, button {
+  transition: 0.3s;
 }
 
 .button:hover {
   transform: scale(1.2);
+}
+
+button, .button {
+  box-shadow: 0px 0px 10px #ffffff;
+}
+
+button:not(.active):not(.activetab):hover, .button:hover {
+  box-shadow: 0px 0px 10px #166ff0
 }
 
 header {
@@ -68,7 +76,6 @@ header div div a button {
   padding-left: 6px;
   border: none;
   cursor: pointer;
-  transition: 0.3s;
   border-radius: 21px;
 }
 
@@ -114,7 +121,6 @@ footer div div {
 }
 
 footer div div a button {
-  box-shadow: 0px 0px 10px #ffffff;
   color: white;
   background-color: #0d1117;
   display: inline-flex;
@@ -126,7 +132,6 @@ footer div div a button {
   padding-left: 6px;
   border: none;
   cursor: pointer;
-  transition: 0.3s;
   border-radius: 21px;
   margin-bottom: 20px;
 }
