@@ -328,7 +328,7 @@ margin-right: 20px;
 color: #8b949e;
 }
 
-a .stat:hover {
+a.stat:hover {
 color: #58a6ff;
 }
 
