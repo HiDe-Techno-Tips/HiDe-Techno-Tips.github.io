@@ -34,6 +34,7 @@ body {
 }
 
 header {
+  box-shadow: 0px 0px 10px #fff;
   background-color: #343942;
   padding: 10px;
   padding-bottom: 30px;
@@ -90,6 +91,7 @@ header div div a button:hover {
 }
 
 footer {
+  box-shadow: 0px 0px 10px #fff;
   background-color: #343942;
   padding: 10px;
   text-align: center;
@@ -107,6 +109,7 @@ footer div div {
 }
 
 footer div div a button {
+  box-shadow: 0px 0px 10px #ffffff;
   color: white;
   background-color: #0d1117;
   display: inline-flex;
@@ -135,6 +138,7 @@ footer div div a button:hover {
 }
 
 .tab {
+  box-shadow: 0px 0px 10px #fff;
   overflow: hidden;
   border: none;
   background-color: #161b22;
