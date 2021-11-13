@@ -246,7 +246,7 @@ footer div div a button:hover {
   color: white;
 }
 
-.tab button.active span {
+.tab button.active span, .tab button.activetab span {
   background-color: #161b22;
 }
 
