@@ -262,16 +262,13 @@ footer div div a button:hover {
   
   .tab .activetab:empty {
     background-color: inherit;
+    padding: 0px;
+    margin-bottom: 27px;
   }
   
   .tab .tabmenu {
     float: left;
     display: block;
-  }
-  
-  .tab.responsive .activetab:empty {
-    padding: 0px;
-    margin: 30px;
   }
   
   .tab.responsive .tabmenu {
@@ -281,12 +278,15 @@ footer div div a button:hover {
   
   .tab.responsive .tabmenu:hover {
     background-color: #1f2630;
-    
     box-shadow: 0px 0px 10px #1f2630;
   }
   
   .tab.responsive .activetab {
     margin-bottom: 10px;
+  }
+  
+  .tab.responsive .activetab:empty {
+    margin-bottom: 30px;
   }
   
   .tab.responsive button.tablinks {
