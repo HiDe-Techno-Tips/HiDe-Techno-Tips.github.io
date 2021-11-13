@@ -52,7 +52,7 @@ header {
   padding: 10px;
   padding-bottom: 30px;
   text-align: center;
-  border-radius: 29px;
+  border-radius: 32px;
 }
 
 header div {
@@ -107,7 +107,7 @@ footer {
   background-color: #343942;
   padding: 10px;
   text-align: center;
-  border-radius: 29px;
+  border-radius: 32px;
 }
 
 footer div {
