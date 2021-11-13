@@ -178,7 +178,7 @@ footer div div a button:hover {
 }
 
 .tab button:not(.activetab):not(.active):hover {
-  box-shadow: 0px 0px 10px #1F2630
+  box-shadow: 0px 0px 10px #1F2630;
   background-color: #1F2630;
   font-size: 21px;
   padding: 14px;
