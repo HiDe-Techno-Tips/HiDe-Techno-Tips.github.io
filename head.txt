@@ -271,7 +271,7 @@ footer div div a button:hover {
   
   .tab.responsive .activetab:empty {
     padding: 0px;
-    margin: 44px;
+    margin: 30px;
   }
   
   .tab.responsive .tabmenu {
