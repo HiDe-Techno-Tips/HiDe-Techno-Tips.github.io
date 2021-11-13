@@ -251,27 +251,37 @@ footer div div a button:hover {
   .tab button.tablinks {
     display: none;
   }
+  
   .tab .activetab:not(:empty) {
     float: none;
     display: block;
   }
+  
   .tab .tabmenu {
     float: left;
     display: block;
   }
+  
   .tab.responsive .tabmenu {
     background-color: #343942;
     box-shadow: 0px 0px 10px #343942;
   }
+  
   .tab.responsive .tabmenu:hover {
     background-color: #1f2630;
     
     box-shadow: 0px 0px 10px #1f2630;
   }
+  
+  .tab.responsive .activetab {
+    margin-bottom: 10px;
+  }
+  
   .tab.responsive button.tablinks {
     float: none;
     display: block;
   }
+  
   .tab.responsive button.tablinks.active {
     display: none;
   }
