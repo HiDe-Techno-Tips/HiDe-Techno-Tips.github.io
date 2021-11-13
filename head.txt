@@ -7,10 +7,15 @@
 }
 
 svg {
-fill: #8b949e;
-display: inline-block;
-vertical-align: top;
-margin-right: 5px;
+  fill: #8b949e;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 5px;
+}
+
+button svg {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 a {
