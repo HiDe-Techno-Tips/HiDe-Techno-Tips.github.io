@@ -255,9 +255,15 @@ footer div div a button:hover {
     display: none;
   }
   
-  .tab .activetab:not(:empty) {
+  .tab .activetab {
     float: none;
     display: block;
+  }
+  
+  .tab .activetab:empty {
+    background-color: inherit;
+    padding: 0px;
+    margin: 27px;
   }
   
   .tab .tabmenu {
