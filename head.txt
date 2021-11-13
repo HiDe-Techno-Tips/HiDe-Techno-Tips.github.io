@@ -6,13 +6,18 @@
   box-sizing: border-box;
 }
 
-*:hover {
-  text-decoration: underline;
-}
-
 a {
   text-decoration: none;
   color: #58a6ff;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-shadow: 0px 0px 5px #ffffff;
+}
+
+a p {
+  text-shadow: none;
 }
 
 .nodeclink:hover {
@@ -276,11 +281,6 @@ footer div div a button:hover {
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-6px, -7px);
   transform: rotate(45deg) translate(-6px, -7px);
-}
-
-.box a {
-vertical-align: bottom;
-text-decoration: none;
 }
 
 .box a p {
