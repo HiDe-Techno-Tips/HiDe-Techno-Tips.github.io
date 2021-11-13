@@ -1,4 +1,4 @@
-<div class="tabmenu" onclick="Menu(&quot;menu&quot;)">
+<div class="tabmenu" onclick="Menu()">
     <div class="hamicon" id="menu">
     <div class="bar1"></div>
     <div class="bar2"></div>
