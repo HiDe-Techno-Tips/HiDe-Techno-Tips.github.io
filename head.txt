@@ -224,6 +224,7 @@ footer div div a button:hover {
 
 .tab .tabmenu:hover {
   background-color: #1f2630;
+  box-shadow: 0px 0px 10px #1f2630;
 }
 
 .tab button span {
@@ -259,6 +260,7 @@ footer div div a button:hover {
   }
   .tab.responsive .tabmenu:hover {
     background-color: #1f2630;
+    box-shadow: 0px 0px 10px #1f2630;
   }
   .tab.responsive button.tablinks {
     float: none;
