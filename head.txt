@@ -168,14 +168,10 @@ footer div div a button:hover {
   z-index:1;
   border-radius: 32px;
   margin-top: 10px;
-  padding: 0px;
+  padding: 4px;
 }
 
 .tab button {
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 12px;
-  margin-bottom: 12px;
   background-color: inherit;
   color: white;
   float: left;
@@ -185,6 +181,7 @@ footer div div a button:hover {
   padding: 9px;
   font-size: 18px;
   border-radius: 27px;
+  margin: 0px 1px;
 }
 
 .tab button:not(.activetab):not(.active):hover {
@@ -192,14 +189,13 @@ footer div div a button:hover {
   background-color: #1F2630;
   font-size: 21px;
   padding: 14px;
-  margin: 5px;
 }
 
 .tab button.active {
   background-color: #343942;
   font-size: 21px;
   padding: 14px;
-  margin: 5px;
+  margin: 5px 1px;
 }
 
 .tab .activetab {
@@ -207,7 +203,7 @@ footer div div a button:hover {
   display: none;
   font-size: 21px;
   padding: 14px;
-  margin: 5px;
+  margin: 5px 1px;
 }
 
 .tab .tabmenu {
@@ -215,7 +211,7 @@ footer div div a button:hover {
   cursor: pointer;
   height: 50px;
   width: 50px;
-  margin: 7px;
+  margin: 2px;
   display: none;
   transition: 0.5s;
 }
