@@ -182,6 +182,7 @@ footer div div a button:hover {
   font-size: 21px;
   padding: 14px;
   margin: 5px;
+  margin-top: 6px;
 }
 
 .tab button.active {
@@ -189,6 +190,7 @@ footer div div a button:hover {
   font-size: 21px;
   padding: 14px;
   margin: 5px;
+  margin-top: 6px;
 }
 
 .tab .activetab {
@@ -197,6 +199,7 @@ footer div div a button:hover {
   font-size: 21px;
   padding: 14px;
   margin: 5px;
+  margin-top: 6px;
 }
 
 .tab .tabmenu {
