@@ -43,7 +43,7 @@ button:not(.active):not(.activetab):not(.tablinks), .button {
 }
 
 button:not(.active):not(.activetab):not(.tablinks):hover, .button:hover {
-  box-shadow: 0px 0px 10px #166ff0
+  box-shadow: 0px 0px 10px #166ff0;
 }
 
 header {
