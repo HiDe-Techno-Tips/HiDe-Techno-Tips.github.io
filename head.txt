@@ -260,15 +260,15 @@ footer div div a button:hover {
     display: block;
   }
   
-  .tab .activetab:empty {
-    background-color: inherit;
-    padding: 0px;
-    margin: 44px;
-  }
-  
   .tab .tabmenu {
     float: left;
     display: block;
+  }
+  
+  .tab.responsive .activetab:empty {
+    background-color: inherit;
+    padding: 0px;
+    margin: 44px;
   }
   
   .tab.responsive .tabmenu {
