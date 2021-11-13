@@ -327,4 +327,9 @@ vertical-align: bottom;
 margin-right: 20px;
 color: #8b949e;
 }
+
+.stat:hover {
+color: #58a6ff;
+}
+
 </style>
