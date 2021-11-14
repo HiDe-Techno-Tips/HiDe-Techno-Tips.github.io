@@ -16,8 +16,8 @@ body {
 }
 
 pre {
-    width: auto;
-    overflow: auto;
+  width: auto;
+  overflow: auto;
 }
 
 h1 {
@@ -50,18 +50,9 @@ a p {
   text-shadow: none;
 }
 
-
 .button, button {
   color: white;
   transition: 0.3s;
-}
-
-.button:hover {
-  transform: scale(1.2);
-}
-
-button:not(.active):not(.activetab):not(.tablinks) {
-  box-shadow: 0px 0px 10px #ffffff;
 }
 
 .button {
@@ -70,12 +61,39 @@ button:not(.active):not(.activetab):not(.tablinks) {
 }
 
 .button:hover {
+  transform: scale(1.2);
   -webkit-filter: drop-shadow(0px 0px 10px #58a6ff);
   filter: drop-shadow(0px 0px 10px #58a6ff);
 }
 
+button:not(.active):not(.activetab):not(.tablinks) {
+  box-shadow: 0px 0px 10px #ffffff;
+}
+
 button:not(.active):not(.activetab):not(.tablinks):hover {
   box-shadow: 0px 0px 10px #58a6ff;
+}
+
+button.icontext {
+  background-color: #0d1117;
+  display: inline-flex;
+  align-items: center; 
+  font-size: 16px;
+  padding: 6px;
+  padding-right: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 21px;
+  margin-bottom: 20px;
+}
+
+button.icontext:hover {
+  background-color: #161b22;
+  font-size: 18px;
+  padding: 8px;
+  padding-right: 14px;
+  border-radius: 23px;
+  margin-bottom: 16px;
 }
 
 header {
@@ -94,31 +112,6 @@ header div {
 header div div {
   text-align: center;
   display: inline-block;
-}
-
-header div div a button {
-  color: white;
-  background-color: #0d1117;
-  display: inline-flex;
-  align-items: center; 
-  font-size: 16px;
-  padding-top: 6px ;
-  padding-bottom: 6px ;
-  padding-right: 12px;
-  padding-left: 6px;
-  border: none;
-  cursor: pointer;
-  border-radius: 21px;
-}
-
-header div div a button:hover {
-  background-color: #161b22;
-  font-size: 18px;
-  padding-top: 8px ;
-  padding-bottom: 8px ;
-  padding-right: 14px;
-  padding-left: 8px;
-  border-radius: 23px;
 }
 
 .blackbk {
@@ -151,33 +144,6 @@ footer div div {
   text-align: center;
   display: inline-block;
   margin: 0px 10px;
-}
-
-footer div div a button {
-  color: white;
-  background-color: #0d1117;
-  display: inline-flex;
-  align-items: center; 
-  font-size: 16px;
-  padding-top: 6px ;
-  padding-bottom: 6px ;
-  padding-right: 12px;
-  padding-left: 6px;
-  border: none;
-  cursor: pointer;
-  border-radius: 21px;
-  margin-bottom: 20px;
-}
-
-footer div div a button:hover {
-  background-color: #161b22;
-  font-size: 18px;
-  padding-top: 8px ;
-  padding-bottom: 8px ;
-  padding-right: 14px;
-  padding-left: 8px;
-  border-radius: 23px;
-  margin-bottom: 16px;
 }
 
 .tab {
@@ -222,7 +188,7 @@ footer div div a button:hover {
   margin: 1px 5px;
 }
 
-.tab .activetab {
+.tab button.activetab {
   background-color: #343942;
   display: none;
   font-size: 21px;
@@ -266,12 +232,12 @@ footer div div a button:hover {
     display: none;
   }
   
-  .tab .activetab {
+  .tab button.activetab {
     float: none;
     display: block;
   }
   
-  .tab .activetab:empty {
+  .tab button.activetab:empty {
     background-color: inherit;
     padding: 0px;
     margin: 27px;
@@ -292,11 +258,11 @@ footer div div a button:hover {
     box-shadow: 0px 0px 10px #1f2630;
   }
   
-  .tab.responsive .activetab {
+  .tab.responsive button.activetab {
     margin-bottom: 10px;
   }
   
-  .tab.responsive .activetab:empty {
+  .tab.responsive button.activetab:empty {
     margin-bottom: 30px;
   }
   
