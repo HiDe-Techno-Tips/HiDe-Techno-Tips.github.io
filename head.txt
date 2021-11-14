@@ -354,15 +354,17 @@ footer div div a button:hover {
 .box button {
   box-shadow: none !important;
   background-color: #161b22;
-  font-size: 14px;
+  font-size: 13px;
   border: none;
-  border-radius: 17px;
+  border-radius: 18px;
   padding: 10px;
   margin-left: 20px;
 }
 
 .box button:hover {
-  box-shadow: none;
+  box-shadow: 0px 0px 10px #166ff0;
+  font-size: 14px;
+  padding: 11px;
 }
 
 .controls {
