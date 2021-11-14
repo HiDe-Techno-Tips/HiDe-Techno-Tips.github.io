@@ -343,10 +343,7 @@ footer div div a button:hover {
   background-color: #0d1117;
   border: 2px solid #30363d;
   border-radius: 25px;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 30px;
   margin: 20px;
 }
 
@@ -355,13 +352,19 @@ footer div div a button:hover {
 }
 
 .box button {
-  float: right;
   background-color: #161b22;
   font-size: 14px;
   border: none;
-  border-radius: 11px;
-  padding: 4px;
+  border-radius: 17px;
+  padding: 10px;
   margin: 0px;
+}
+
+.controls {
+  display: flex;
+}
+.horizontalspace {
+  flex-grow: 1;
 }
 
 .stat {
