@@ -347,7 +347,7 @@ footer div div a button:hover {
   margin: 20px;
 }
 
-.box a p {
+.box p {
   color: #8b949e;
 }
 
@@ -367,6 +367,12 @@ footer div div a button:hover {
   font-size: 14px;
   padding: 11px;
 }
+
+a .box:hover {
+  border: 2px solid #166ff0;
+  margin: 10px;
+  padding: 35px;
+} 
 
 .controls {
   display: flex;
