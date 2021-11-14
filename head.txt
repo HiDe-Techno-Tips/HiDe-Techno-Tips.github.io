@@ -6,6 +6,19 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0px;
+  padding: 10px;
+  min-width: 400px;
+  color: white;
+  background-color: #0d1117;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
 svg {
   fill: #8b949e;
   display: inline-block;
@@ -32,14 +45,6 @@ a p {
   text-shadow: none;
 }
 
-body {
-  margin: 0px;
-  padding: 10px;
-  min-width: 400px;
-  color: white;
-  background-color: #0d1117;
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 .button, button {
   color: white;
