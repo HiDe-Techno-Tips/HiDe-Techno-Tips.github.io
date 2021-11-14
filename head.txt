@@ -414,6 +414,7 @@ a .box:hover {
   }
   
   .box button {
+    margin-top: 10px;
     margin-left: 0px;
     margin-right: 20px;
   }
