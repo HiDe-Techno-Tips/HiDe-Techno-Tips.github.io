@@ -333,7 +333,7 @@ footer div div a button:hover {
 .bar1, .bar2, .bar3 {
   width: 30px;
   height: 5px;
-  background-color: white;
+  background-color: #8b949e;
   margin: 4px;
   transition: 0.4s;
   border-radius: 3px;
