@@ -370,6 +370,7 @@ footer div div a button:hover {
 }
 
 a .box:hover {
+  box-shadow: 0px 0px 10px #166ff0 inset, 0px 0px 10px #166ff0;
   border: 2px solid #166ff0;
   margin: 20px 15px;
   padding: 35px;
