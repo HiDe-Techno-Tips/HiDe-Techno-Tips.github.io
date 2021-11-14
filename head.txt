@@ -368,8 +368,14 @@ footer div div a button:hover {
 .controls {
   display: flex;
 }
+
 .horizontalspace {
   flex-grow: 1;
+}
+
+.stats {
+  display: inline-flex;
+  align-items: center;
 }
 
 .stats *:not(svg) {
