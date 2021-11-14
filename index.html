@@ -133,7 +133,7 @@ fetch("https://api.github.com/users/Hide-techno-tips/gists").then(res => res.jso
 		if (out[i].description != null) {
 			desc = out[i].description;
 		}
-		divtxt = "<div class = \"box\"><a href = \"" + out[i].html_url + "\"><h2>" + Object.keys(out[i].files)[0] + "</h2><p>" + desc + "</p></a></div>";
+		divtxt = "<a href = \"" + out[i].html_url + "\"><div class = \"box\"><h2>" + Object.keys(out[i].files)[0] + "</h2><p>" + desc + "</p></div></a>";
 		count++;
 		var node = document.createElement("li");
 		node.innerHTML = divtxt;
