@@ -368,13 +368,17 @@ footer div div a button:hover {
 }
 
 .stats * {
-vertical-align: bottom;
-margin-right: 20px;
-color: #8b949e;
+  vertical-align: bottom;
+  color: #8b949e;
+}
+
+.stats a {
+  color: #8b949e;
+  margin: 0 20px;
 }
 
 .stats a:hover {
-color: #58a6ff;
+  color: #58a6ff;
 }
 
 </style>
