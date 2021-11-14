@@ -352,6 +352,7 @@ footer div div a button:hover {
 }
 
 .box button {
+  color: #8b949e;
   box-shadow: none !important;
   background-color: #161b22;
   font-size: 13px;
