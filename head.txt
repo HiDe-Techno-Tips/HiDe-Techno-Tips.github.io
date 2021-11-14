@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-  text-shadow: 0px 0px 10px #166ff0;
+  text-shadow: 0px 0px 10px #58a6ff;
 }
 
 a p {
@@ -60,12 +60,12 @@ button:not(.active):not(.activetab):not(.tablinks) {
 }
 
 .button:hover {
-  -webkit-filter: drop-shadow(0px 0px 10px #166ff0);
-  filter: drop-shadow(0px 0px 10px #166ff0);
+  -webkit-filter: drop-shadow(0px 0px 10px #58a6ff);
+  filter: drop-shadow(0px 0px 10px #58a6ff);
 }
 
 button:not(.active):not(.activetab):not(.tablinks):hover {
-  box-shadow: 0px 0px 10px #166ff0;
+  box-shadow: 0px 0px 10px #58a6ff;
 }
 
 header {
@@ -102,7 +102,7 @@ header div div a button {
 }
 
 header div div a button:hover {
-  background-color: #161b22;
+  background-color: #58a6ff;
   font-size: 18px;
   padding-top: 8px ;
   padding-bottom: 8px ;
@@ -160,7 +160,7 @@ footer div div a button {
 }
 
 footer div div a button:hover {
-  background-color: #161b22;
+  background-color: #58a6ff;
   font-size: 18px;
   padding-top: 8px ;
   padding-bottom: 8px ;
@@ -364,14 +364,14 @@ footer div div a button:hover {
 }
 
 .box button:hover {
-  box-shadow: 0px 0px 10px #166ff0 !important;
+  box-shadow: 0px 0px 10px #58a6ff !important;
   font-size: 14px;
   padding: 11px;
 }
 
 a .box:hover {
-  box-shadow: 0px 0px 10px #166ff0 inset, 0px 0px 10px #166ff0;
-  border: 2px solid #166ff0;
+  box-shadow: 0px 0px 10px #58a6ff inset, 0px 0px 10px #58a6ff;
+  border: 2px solid #58a6ff;
   margin: 20px 15px;
   padding: 35px;
 } 
