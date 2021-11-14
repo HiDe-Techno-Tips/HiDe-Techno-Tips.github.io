@@ -367,13 +367,13 @@ footer div div a button:hover {
   flex-grow: 1;
 }
 
-.stat * {
+.stats * {
 vertical-align: bottom;
 margin-right: 20px;
 color: #8b949e;
 }
 
-a.stat:hover {
+.stats a:hover {
 color: #58a6ff;
 }
 
