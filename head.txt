@@ -14,10 +14,6 @@ svg {
   padding-bottom: 3px;
 }
 
-ol {
-  list-style-type: none;
-}
-
 a {
   transition: 0.3s;
   text-decoration: none;
@@ -320,6 +316,12 @@ footer div div a button:hover {
   animation: fadeEffect 1s;
   display: none;
   border: none;
+}
+
+.tabcontents ol {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
 }
 
 .hamicon {
