@@ -358,7 +358,7 @@ footer div div a button:hover {
   border: none;
   border-radius: 17px;
   padding: 10px;
-  margin: 0px;
+  margin-left: 20px;
 }
 
 .box button:hover {
