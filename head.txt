@@ -403,4 +403,19 @@ a .box:hover {
   color: #58a6ff;
 }
 
+.buttons {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+
+  .controls {
+    display: block;
+  }
+  .box button {
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+}
+
 </style>
