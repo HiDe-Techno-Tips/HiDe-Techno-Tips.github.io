@@ -355,8 +355,9 @@ footer div div a button:hover {
 }
 
 .box button {
+  float: right;
   background-color: #161b22;
-  text-size: 14px;
+  font-size: 14px;
   border: none;
   border-radius: 11px;
   padding: 4px;
