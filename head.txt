@@ -367,14 +367,14 @@ footer div div a button:hover {
   flex-grow: 1;
 }
 
-.stats * {
+.stats *:not(svg) {
   vertical-align: bottom;
   color: #8b949e;
+  margin-right: 10px;
 }
 
 .stats a {
   color: #8b949e;
-  margin: 0 20px;
 }
 
 .stats a:hover {
