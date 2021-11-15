@@ -15,6 +15,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.invisible {
+  display: none;
+}
+
 pre {
   width: auto;
   overflow: auto;
