@@ -340,6 +340,8 @@ header div div, footer div div {
 .box button {
   color: #8b949e;
   box-shadow: none !important;
+  margin: 0px;
+  margin-left: 10px;
 }
 
 .box button:hover {
@@ -390,9 +392,9 @@ a .box:hover {
     display: block;
   }
   
-  .controls button {
+  .box .controls button {
     margin: 10px 0px;
-    margin-right: 20px;
+    margin-right: 10px;
   }
   
   .controls .stats {
