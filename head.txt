@@ -370,7 +370,7 @@ a .box:hover {
 .stats *:not(svg) {
   vertical-align: bottom;
   color: #8b949e;
-  margin-right: 10px;
+  margin: 10px;
 }
 
 .stats a {
