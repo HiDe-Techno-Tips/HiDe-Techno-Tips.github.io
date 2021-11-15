@@ -84,6 +84,7 @@ button.icontext {
   border: none;
   cursor: pointer;
   border-radius: 21px;
+  margin: 10px 0px;
 }
 
 button.icontext:hover {
@@ -92,6 +93,7 @@ button.icontext:hover {
   padding: 8px;
   padding-right: 14px;
   border-radius: 23px;
+  margin: 8px 0px;
 }
 
 header {
