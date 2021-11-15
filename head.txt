@@ -32,8 +32,11 @@ svg {
   fill: #8b949e;
   display: inline-block;
   vertical-align: middle;
-  margin-right: 5px;
   padding-bottom: 3px;
+}
+
+button svg {
+  margin-right: 5px;
 }
 
 a {
