@@ -100,7 +100,7 @@ button.icontext {
 }
 
 button.icontext:hover {
-  background-color: #1f2630
+  background-color: #1f2630;
   font-size: 18px;
   padding: 8px;
   padding-right: 14px;
