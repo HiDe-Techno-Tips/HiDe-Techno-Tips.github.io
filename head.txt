@@ -96,16 +96,16 @@ button.icontext {
   padding: 6px;
   padding-right: 12px;
   border-radius: 22px;
-  margin: 10px;
+  margin: 10px !important;
 }
 
 button.icontext:hover {
   background-color: #1f2630;
-  font-size: 18px;
-  padding: 8px;
-  padding-right: 14px;
+  font-size: 18px !important;
+  padding: 8px !important;
+  padding-right: 14px !important;
   border-radius: 26px;
-  margin: 8px 10px;
+  margin: 8px 10px !important;
 }
 
 header button, footer button {
