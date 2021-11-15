@@ -333,7 +333,7 @@ header div div, footer div div {
   background-color: #0d1117;
   border: 2px solid #30363d;
   border-radius: 25px;
-  padding: 20px;
+  padding: 25px;
   margin: 20px;
 }
 
@@ -358,7 +358,7 @@ a .box:hover {
   box-shadow: 0px 0px 10px #58a6ff inset, 0px 0px 10px #58a6ff;
   border: 2px solid #58a6ff;
   margin: 20px 15px;
-  padding: 25px;
+  padding: 30px;
 } 
 
 .controls {
