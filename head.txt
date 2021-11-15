@@ -387,10 +387,13 @@ a .box:hover {
     display: block;
   }
   
-  .box button {
-    margin-top: 10px;
-    margin-left: 0px;
+  .controls button {
+    margin: 10px 0px;
     margin-right: 20px;
+  }
+  
+  .controls .stats {
+    margin: 10px 0px;
   }
   
 }
