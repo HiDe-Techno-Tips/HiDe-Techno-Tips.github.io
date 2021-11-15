@@ -334,6 +334,10 @@ header div div, footer div div {
   margin: 20px;
 }
 
+.box div {
+  margin: 5px;
+}
+
 .box p {
   color: #8b949e;
 }
