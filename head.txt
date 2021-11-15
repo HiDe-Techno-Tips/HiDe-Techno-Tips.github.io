@@ -97,7 +97,7 @@ button.icontext {
   padding: 6px;
   padding-right: 12px;
   border-radius: 22px;
-  margin: 10px !important;
+  margin: 10px 5px !important;
 }
 
 button.icontext:hover {
@@ -106,7 +106,7 @@ button.icontext:hover {
   padding: 8px !important;
   padding-right: 14px !important;
   border-radius: 26px;
-  margin: 8px 10px !important;
+  margin: 8px 5px !important;
 }
 
 header button, footer button {
