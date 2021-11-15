@@ -87,6 +87,7 @@ button:not(.active):not(.activetab):not(.tablinks):hover {
   box-shadow: 0px 0px 10px #58a6ff;
   font-size: 14px;
   padding: 11px;
+  margin: 8px;
 }
 
 button.icontext {
@@ -329,7 +330,7 @@ header div div, footer div div {
   background-color: #0d1117;
   border: 2px solid #30363d;
   border-radius: 25px;
-  padding: 30px;
+  padding: 20px;
   margin: 20px;
 }
 
@@ -340,8 +341,6 @@ header div div, footer div div {
 .box button {
   color: #8b949e;
   box-shadow: none !important;
-  margin: 0px;
-  margin-left: 10px;
 }
 
 .box button:hover {
@@ -386,28 +385,10 @@ a .box:hover {
   display: block;
 }
 
-.controls button {
-  margin: 0px 10px;
-}
-
-.box .controls button {
-  margin: 0px;
-  margin-left: 10px;
-}
-
 @media screen and (max-width: 600px) {
 
   .controls {
     display: block;
-  }
-  
-  .box .controls button {
-    margin: 10px 0px;
-    margin-right: 10px;
-  }
-  
-  .controls .stats {
-    margin: 10px 0px;
   }
   
 }
