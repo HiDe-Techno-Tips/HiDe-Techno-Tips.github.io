@@ -360,6 +360,8 @@ a .box:hover {
 
 .controls {
   display: flex;
+  margin: 0px;
+  padding: 0px;
 }
 
 .horizontalspace {
