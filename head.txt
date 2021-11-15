@@ -54,14 +54,11 @@ a p {
   text-shadow: none;
 }
 
-.button, button {
-  color: white;
-  transition: 0.3s;
-}
-
 .button {
   -webkit-filter: drop-shadow(0px 0px 10px #ffffff);
   filter: drop-shadow(0px 0px 10px #ffffff);
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .button:hover {
@@ -70,29 +67,40 @@ a p {
   filter: drop-shadow(0px 0px 10px #58a6ff);
 }
 
+button {
+  border: none;
+  color: white;
+  background-color: #161b22;
+  font-size: 13px;
+  border-radius: 18px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
 button:not(.active):not(.activetab):not(.tablinks) {
   box-shadow: 0px 0px 10px #ffffff;
 }
 
 button:not(.active):not(.activetab):not(.tablinks):hover {
   box-shadow: 0px 0px 10px #58a6ff;
+  font-size: 14px;
+  padding: 11px;
 }
 
 button.icontext {
-  background-color: #0d1117;
   display: inline-flex;
   align-items: center; 
   font-size: 16px;
   padding: 6px;
   padding-right: 12px;
-  border: none;
-  cursor: pointer;
   border-radius: 21px;
   margin: 10px 0px;
 }
 
 button.icontext:hover {
-  background-color: #161b22;
+  background-color: #1f2630
   font-size: 18px;
   padding: 8px;
   padding-right: 14px;
@@ -100,22 +108,38 @@ button.icontext:hover {
   margin: 8px 0px;
 }
 
-header {
+header button, footer button {
+  background-color:#0d1117 !important;
+}
+
+header button:hover, footer button:hover {
+  background-color: #161b22 !important;
+}
+
+header, footer {
   box-shadow: 0px 0px 10px #fff;
   background-color: #343942;
   padding: 10px;
-  padding-bottom: 30px;
   text-align: center;
   border-radius: 32px;
 }
 
-header div {
+header {
+  padding-bottom: 30px;
+}
+
+footer {
+  margin-top: 10px;
+}
+
+header div, footer-div {
   display: inline-flex;
 }
 
-header div div {
+header div div, footer div div {
   text-align: center;
   display: inline-block;
+  margin: 0px 10px;
 }
 
 .blackbk {
@@ -129,25 +153,6 @@ header div div {
   height: 300px;
   max-width: 800px;
   color: white;
-}
-
-footer {
-  box-shadow: 0px 0px 10px #fff;
-  background-color: #343942;
-  padding: 10px;
-  text-align: center;
-  border-radius: 32px;
-  margin-top: 10px;
-}
-
-footer div {
-  display: inline-flex;
-}
-
-footer div div {
-  text-align: center;
-  display: inline-block;
-  margin: 0px 10px;
 }
 
 .tab {
@@ -335,18 +340,10 @@ footer div div {
 .box button {
   color: #8b949e;
   box-shadow: none !important;
-  background-color: #161b22;
-  font-size: 13px;
-  border: none;
-  border-radius: 18px;
-  padding: 10px;
-  margin-left: 20px;
 }
 
 .box button:hover {
   box-shadow: 0px 0px 10px #58a6ff !important;
-  font-size: 14px;
-  padding: 11px;
 }
 
 a .box:hover {
