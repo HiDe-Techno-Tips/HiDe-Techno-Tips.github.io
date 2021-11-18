@@ -136,7 +136,7 @@ footer {
   margin-top: 10px;
 }
 
-header div, footer-div {
+header div, footer div {
   display: inline-flex;
 }
 
