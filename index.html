@@ -56,14 +56,29 @@ fetch("https://raw.githubusercontent.com/HiDe-Techno-Tips/hide-techno-tips.githu
 </div>
 
 <div id="hometab" class="tabcontent">
-	<div style="text-align: center;">
-	<div id="pin"></div>
+	<div class="controls" style="margin: 0px 20px !important;">
+	<div style="padding: 14px 0px; text-align: center;">
+    	<a href="https://github.com/HiDe-Techno-Tips">
+			<button class="icontext"><img src="https://github.com/HiDe-Techno-Tips/HiDe-Techno-Tips.github.io/raw/main/assets/GitHub-Mark-Light-120px-plus.png" width="30px" style="margin-right: 10px;">Visit My GitHub Profile</button>
+		</a>
     </div>
+    <span class="horizontalspace"></span>
+	<div style="text-align: center;">
+		<div>
+    		<a href="https://github.com/HiDe-Techno-Tips?tab=repositories"><button>View all Repositories</button></a>
+    	</div>
+    	<div>
+        	<a href="https://gist.github.com/HiDe-Techno-Tips"><button style="padding: 10px 31px;">View all Gists</button></a>
+    	</div>
+    </div>
+    </div>
+    <p style="margin: 0px 20px; margin-top: 20px; margin-bottom: -15px;">Pinned</p>
+	<div id="pin" style="text-align: center;"></div>
 </div>
 
 <div id="projectstab" class="tabcontent">
 	<div style="text-align: center; margin-top: 20px;">
-		<a class="nodeclink" href="https://github.com/HiDe-Techno-Tips?tab=repositories">
+		<a href="https://github.com/HiDe-Techno-Tips?tab=repositories">
 			<button class="icontext"><img src="https://github.com/HiDe-Techno-Tips/HiDe-Techno-Tips.github.io/raw/main/assets/GitHub-Mark-Light-120px-plus.png" width="30px" style="margin-right: 10px;">View all in GitHub</button>
 		</a>
 	</div>
@@ -71,15 +86,23 @@ fetch("https://raw.githubusercontent.com/HiDe-Techno-Tips/hide-techno-tips.githu
 
 <div id="giststab" class="tabcontent">
 	<div style="text-align: center; margin-top: 20px;">
-		<a class="nodeclink" href="https://gist.github.com/HiDe-Techno-Tips">
+		<a href="https://gist.github.com/HiDe-Techno-Tips">
 			<button>View all Gists</button>
 		</a>
 	</div>
 </div>
+
 <script>
 pinElement = document.getElementById("pin");
+
 gitpin("https://api.github.com/repos/HiDe-Techno-Tips/Blackeye-for-Windows", "repo", pinElement);
+gitpin("https://api.github.com/repos/HiDe-Techno-Tips/Windows-Activator", "repo", pinElement);
+gitpin("https://api.github.com/repos/HiDe-Techno-Tips/Mouse2Gamepad_for_Yuzu", "repo", pinElement);
+gitpin("https://api.github.com/repos/HiDe-Techno-Tips/yuzu-Early-Access-Launcher", "repo", pinElement);
+
+gitpin("https://api.github.com/gists/49a3cd23e9a931eb8920423a0fb3668a", "gist", pinElement);
 gitpin("https://api.github.com/gists/e09340eae2861e1ad8b7f6bdba5ee9ff", "gist", pinElement);
+gitpin("https://api.github.com/gists/eb8704e2da1d98240153165743960e17", "gist", pinElement);
 
 fetch("https://api.github.com/users/Hide-techno-tips/repos").then(res => res.json()).then((out) => {
 	var ol = document.createElement("ol");
