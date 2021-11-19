@@ -348,6 +348,7 @@ header div div, footer div div {
 .box button {
   color: #8b949e;
   box-shadow: none !important;
+  margin: 0px 5px;
 }
 
 .box button:hover {
