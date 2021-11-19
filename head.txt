@@ -334,7 +334,13 @@ header div div, footer div div {
   border: 2px solid #30363d;
   border-radius: 25px;
   padding: 25px;
+  padding-bottom: 20px;
   margin: 20px;
+}
+
+a .box
+{
+  padding-bottom: 25px !important;
 }
 
 .box div {
@@ -348,7 +354,6 @@ header div div, footer div div {
 .box button {
   color: #8b949e;
   box-shadow: none !important;
-  margin: 0px 5px;
 }
 
 .box button:hover {
