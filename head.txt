@@ -340,7 +340,7 @@ header div div, footer div div {
 
 a .box
 {
-  padding-bottom: 25px !important;
+  padding-bottom: 25px;
 }
 
 .box div {
