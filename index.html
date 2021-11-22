@@ -1,6 +1,7 @@
 <html lang="en">
 <head>
 <title>HiDe Techno Tips</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://hide-techno-tips.github.io/GitHub-List-Repository/GitHubList.js"></script>
 <div id = "head"></div>
 </head>
@@ -104,47 +105,17 @@ gitpin("https://api.github.com/gists/49a3cd23e9a931eb8920423a0fb3668a", "gist", 
 gitpin("https://api.github.com/gists/e09340eae2861e1ad8b7f6bdba5ee9ff", "gist", pinElement);
 gitpin("https://api.github.com/gists/eb8704e2da1d98240153165743960e17", "gist", pinElement);
 
-fetch("https://api.github.com/users/Hide-techno-tips/repos").then(res => res.json()).then((out) => {
-	var ol = document.createElement("ol");
-	ol.setAttribute("class", "sort");
-	count = 0;
-	divtxt = "";
-	for (let i = 0; ; i++) {
-		if (out[i] == null) {
-			break;
-		}
-		if (out[i].name.toLowerCase() == out[i].owner.login.toLowerCase() || out[i].name.toLowerCase() == out[i].owner.login.toLowerCase() + ".github.io") {
-			continue;
-		}
+const loaded = new Event("loaded");
 
-		count++;
-		node = document.createElement("li");
-		node.setAttribute("data-position", 0 - out[i].watchers);
-        gitpin(out[i].url, "repo", node);
-		ol.appendChild(node);
-	}
-	document.getElementById("projects").innerHTML = document.getElementById("projects").innerHTML + " <span>" + count + "</span>"
-	document.getElementById("projectstab").appendChild(ol);
-	var $wrapper = $('.sort');
-	$wrapper.find('li').sort(function(a, b) { return +a.getAttribute('data-position') - +b.getAttribute('data-position'); }).appendTo($wrapper);
-})
+listrepos("HiDe-Techno-Tips", document.getElementById("projectstab")).then(reposcount => {
+	document.getElementById("projects").innerHTML = document.getElementById("projects").innerHTML + " <span>" + reposcount.toString() + "</span>";
+	document.dispatchEvent(loaded);
+});
 
-fetch("https://api.github.com/users/Hide-techno-tips/gists").then(res => res.json()).then((out) => {
-	var ol = document.createElement("ol");
-	count = 0;
-	divtxt = "";
-	for (let i = 0; ; i++) {
-		if (out[i] == null || Object.keys(out[i].files)[0] == null) {
-			break;
-		}
-		count++;
-		node = document.createElement("li");
-		gitpin(out[i].url, "gist", node);
-		ol.appendChild(node);
-	}
-	document.getElementById("gists").innerHTML = document.getElementById("gists").innerHTML + " <span>" + count + "</span>";
-	document.getElementById("giststab").appendChild(ol);
-})
+listgists("HiDe-Techno-Tips", document.getElementById("giststab")).then(gistscount => {
+	document.getElementById("gists").innerHTML = document.getElementById("gists").innerHTML + " <span>" + gistscount.toString() + "</span>";
+	document.dispatchEvent(loaded);
+});
 </script>
 
 <div id="donatetab" class="tabcontent">
@@ -173,8 +144,8 @@ function opentab(evt, tabName) {
 const urlParams = new URLSearchParams(window.location.search);
 const tab = urlParams.get('tab');
 
-document.addEventListener("DOMContentLoaded", theDomHasLoaded, false);
-function theDomHasLoaded(e) {
+document.addEventListener("loaded", hasloaded, false);
+function hasloaded(e) {
 	document.getElementById('home').click();
 	document.getElementById(tab).click();
 }
