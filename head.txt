@@ -378,7 +378,7 @@ a .box:hover {
 }
 
 .stats {
-  display: inline-flex;
+  display: flex;
   align-items: center;
 }
 
