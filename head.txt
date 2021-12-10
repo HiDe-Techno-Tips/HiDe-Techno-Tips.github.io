@@ -194,6 +194,10 @@ header div div, footer div div {
   margin: 1px 5px;
 }
 
+.tab button.active:hover, .tab button.activetab:hover {
+  cursor: default;
+}
+
 .tab button.active {
   background-color: #343942;
   font-size: 21px;
