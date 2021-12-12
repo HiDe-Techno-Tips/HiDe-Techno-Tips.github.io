@@ -412,4 +412,16 @@ a .box:hover {
   
 }
 
+.row {
+  display: flex;
+}
+
+@media screen and (max-width: 750px) {
+
+  .row {
+    display: block;
+  }
+  
+}
+
 </style>
