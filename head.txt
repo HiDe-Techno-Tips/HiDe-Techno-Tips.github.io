@@ -420,6 +420,7 @@ a .box:hover {
 
   .row {
     display: block;
+    justify-content: center;
   }
   
 }
