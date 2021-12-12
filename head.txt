@@ -425,19 +425,19 @@ a .box:hover {
 }
 
 table {
-  border: 2px solid #dddddd;
+  border: 2px solid #8b949e;
   border-collapse: collapse;
   width: 100%;
 }
 
 th {
-  border: 2px solid #dddddd;
+  border: 2px solid #8b949e;
   text-align: center;
   padding: 5px;
 }
 
 td {
-  border: 1px solid #dddddd;
+  border: 1px solid #8b949e;
   text-align: left;
   padding: 5px;
 }
