@@ -414,13 +414,13 @@ a .box:hover {
 
 .row {
   display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 750px) {
 
   .row {
     display: block;
-    justify-content: center;
   }
   
 }
