@@ -64,7 +64,7 @@ fetch("https://raw.githubusercontent.com/HiDe-Techno-Tips/hide-techno-tips.githu
     		<a href="https://github.com/HiDe-Techno-Tips?tab=repositories"><button>View all Repositories</button></a>
     	</div>
     	<div>
-        	<a href="https://gist.github.com/HiDe-Techno-Tips"><button style="padding: 10px 31px;">View all Gists</button></a>
+        	<a href="https://gist.github.com/HimDek"><button style="padding: 10px 31px;">View all Gists</button></a>
     	</div>
     </div>
     </div>
@@ -82,7 +82,7 @@ fetch("https://raw.githubusercontent.com/HiDe-Techno-Tips/hide-techno-tips.githu
 
 <div id="giststab" class="tabcontent">
 	<div style="text-align: center; margin-top: 20px;">
-		<a href="https://gist.github.com/HiDe-Techno-Tips">
+		<a href="https://gist.github.com/HimDek">
 			<button>View all Gists</button>
 		</a>
 	</div>
@@ -107,7 +107,7 @@ listrepos("HiDe-Techno-Tips", document.getElementById("repostab")).then(reposcou
 	document.dispatchEvent(loaded);
 });
 
-listgists("HiDe-Techno-Tips", document.getElementById("giststab")).then(gistscount => {
+listgists("HimDek", document.getElementById("giststab")).then(gistscount => {
 	document.getElementById("gists").innerHTML = document.getElementById("gists").innerHTML + " <span>" + gistscount.toString() + "</span>";
 	document.dispatchEvent(loaded);
 });
